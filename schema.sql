@@ -35,17 +35,20 @@ Create TABLE salaries (
 
 Create table Dept_Emp (
 	emp_no INT NOT NULL,
-	dept_no INT NOT NULL,
+	dept_no VARCHAR NOT NULL,
 	from_date DATE NOT NULL,
 	to_date DATE NOT NULL,
 	FOREIGN key (emp_no) references employees (emp_no),
-	Primary key (emp_no)
+	FOREIGN Key (dept_no) REFERENCES departments (dept_no),
+	PRIMARY KEY (emp_no, dept_no)
 );
-Create table Titles (
-	emp_no int not null,
-	title varchar not null,
-	from_date date not null,
-	to_date date not null,
-	foreign key (emp_no) REFERENCES employees (emp_no),
-	primary key (emp_no)
+
+CREATE TABLE titles (
+	emp_no INT NOT NULL,
+	title VARCHAR(40) NOT NULL,
+	from_date DATE NOT NULL,
+  	to_date DATE NOT NULL,
+	FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+    PRIMARY KEY (emp_no, title, from_date)
 );
+
