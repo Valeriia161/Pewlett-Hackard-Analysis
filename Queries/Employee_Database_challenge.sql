@@ -245,5 +245,25 @@ From unique_titles as u
 Group by u.title
 ORDER BY count DESC;
 
+-- The Employees Eligible for the Mentorship Program
+Select Distinct On (e.emp_no)
+e.emp_no,
+e.first_name,
+e.last_name,
+e.birth_date,
+de.from_date,
+de.to_date,
+t.title
+--Into mentorship_eligibilty
+From employees as e
+Inner Join dept_emp as de
+	On(e.emp_no=de.emp_no)
+Inner Join titles as t
+	On (de.emp_no=t.emp_no)
+Where (e.birth_date between '1965-01-01' and '1965-12-31')
+And (de.to_date = '9999-01-01')	
+Order by emp_no;
+
+
 
 
