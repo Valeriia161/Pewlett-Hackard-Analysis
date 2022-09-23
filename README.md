@@ -15,7 +15,7 @@ In this analysis, I determined the number of retiring employees per title, and i
 •	Software: Python 3.6.1, Jupyter, Git Bash, pgAdmin4, SQL.
 
 
-## `Summary`
+## `Results`
 
 
  The number of retiring employees grouped by title. <br/>
@@ -35,3 +35,7 @@ The employees eligible for the mentorship program. <br/>
 
 
 ![mentorship_eligibilty](https://user-images.githubusercontent.com/110998103/191975868-26581aad-1f16-4381-8905-4d2166fe2fe8.png)
+
+
+## `Summary`
+
