@@ -12,7 +12,7 @@ In this analysis, I determined the number of retiring employees per title, and i
 
 #### Resources <br/>
 •	Data Source: [Google]( Google), <br/>
-•	Software: Python 3.6.1, Jupyter, Git Bash, pgAdmin4, SQL.
+•	Software: Git Bash, pgAdmin4, SQL.
 
 
 ## `Results`
