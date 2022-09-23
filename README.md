@@ -39,3 +39,8 @@ The employees eligible for the mentorship program. <br/>
 
 ## `Summary`
 
+
+Pewlett Hackard Analysis helps to provide high-level responses to the following questions: <br/>
+o	How many roles will need to be filled as the "silver tsunami" begins to make an impact? <br/>
+o	Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? <br/>
+
